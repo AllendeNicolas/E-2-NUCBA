@@ -47,5 +47,159 @@ header {
   font-weight: 600;
 }
 body {
-  background-color: black;
+  background-image: linear-gradient(#780206, #061161);
+}
+
+/* MAIN */
+main {
+  background: ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: bisque;
+  width: 100%;
+}
+/* Hero */
+#Hero {
+  margin-top: 30px;
+  padding: 47px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero-Info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.Hero-Info h1 {
+  font-size: 40px;
+  width: 80%;
+  min-width: 500px;
+  font-weight: 800;
+  color: bisque;
+}
+
+.Hero-Info p {
+  font-size: 20px;
+  width: 70%;
+  color: rgb(204, 184, 184);
+}
+
+.Hero-Info p > span {
+  font-weight: 800;
+}
+
+.Hero-Info a {
+  color: azure;
+  background-color: blue;
+  width: 120px;
+  padding: 8px 0px;
+  border-radius: 10px;
+  font-size: 14pa;
+  text-align: center;
+}
+
+.Hero-cards {
+  width: 400px;
+  background: rgb(139, 56, 56);
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Hero-card-info {
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+}
+
+.Hero-card-info-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.Hero-card-info-top h3 {
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Hero-card-info-botton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Hero-card-especialista {
+  display: flex;
+  align-content: center;
+  gap: 20px;
+}
+
+.Hero-card-especialista img {
+  height: 50px;
+  width: 50px;
+  padding-left: 21px;
+  padding-right: 20px;
+}
+
+.hero-contenedor {
+  flex-direction: column;
+  background-color: rgb(68, 39, 39);
+  border-radius: 15px;
+}
+
+.Info-abogado {
+}
+
+.Curriculum {
+  background-color: rgb(165, 101, 93);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.Curriculum a {
+  color: antiquewhite;
+}
+
+#AcercadeNosotros {
+  /* margin-top: 20px; */
+  padding: 47px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#AcercadeNosotros h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.Info-nuestra {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 110%;
+}
+
+.Info-nuestra {
+  font-size: 20px;
 }
