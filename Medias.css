@@ -137,43 +137,63 @@
     }
 
     figure {
-    display: none;
-  }
+      display: none;
+    }
 
-  .piedepagina {
-    width: 95%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px;
-  }
+    .piedepagina {
+      width: 95%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+    }
 
-  .box h3 {
-    text-align: center;
-  }
+    .box h3 {
+      text-align: center;
+    }
 
-  .box p {
-    width: 50;
-    max-width: 200px;
-    text-align: center;
-  }
+    .box p {
+      width: 50;
+      max-width: 200px;
+      text-align: center;
+    }
 
-  .redsocial {
-    flex-wrap: wrap;
-    max-width: 390px;
-  }
+    .redsocial {
+      flex-wrap: wrap;
+      max-width: 390px;
+    }
 
-  .grupo2 {
-    width: 100%;
-  }
+    .grupo2 {
+      width: 100%;
+    }
 
-  .servicios {
-    margin-right: 185px;
-  }
-  #nuestrosservicios h2 {
-    margin-right: 185px;
-  }
+    .servicios {
+      margin-right: 185px;
+    }
+    #nuestrosservicios h2 {
+      margin-right: 185px;
+      width: 600%;
+    }
 
-  .grupo1 {
-    width: 60%;
+    .grupo1 {
+      width: 60%;
+    }
+
+    .box p {
+      width: 600px;
+    }
+
+    .piedepagina {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #nuestrosservicios {
+      max-width: 50px;
+    }
+
+    .navbar-list {
+      width: 80%;
+    }
   }
 }
